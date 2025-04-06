@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Jacquard+24&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap');
+
+.img_deg{
+  float: right;
+}
+
+t {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .jacquard-24-regular {
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+  .titillium-web-regular {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .titillium-web-semibold {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .titillium-web-bold {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .titillium-web-black {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .titillium-web-extralight-italic {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .titillium-web-light-italic {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .titillium-web-regular-italic {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .titillium-web-semibold-italic {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .titillium-web-bold-italic {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+:root{
+ /* Border radius */
+ --border-radius-s: 8px;
+ --border-radius-m: 30px;
+ --border-radius-circle: 50%;
+}
+ 
+  
+  :root {
+    /* Colors */
+    --primary-color:rgb(65,75,158);
+    --secondary-color:rgb(151,146,203);
+    --lavender-color:rgb(170,116,160);
+    --white-color:rgb(226,201,158);
+    --wine-color:rgb(133,39,54);
+  }
+  /* Stylings for whole site */
+  ul {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  button {
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  
+  /* Navbar styling */
+  header {
+    background-image: url(image.png);
+  }
+
+  header .navbar {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navbar .nav-logo .logo-text {
+    color:var(--primary-color)
+  }
+
+  .navbar .nav-menu {
+    display: flex;
+    gap: 10px;
+  }
+
+ .navbar .nav-menu .nav-link {
+  padding: 10px 10px;
+  color: var(--wine-color);
+  background: var(--white-color);
+  border-radius: var(--border-radius-m)
+ }
